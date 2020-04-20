@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "percolate";
+    src: url("/assets/icon/percolate.eot");
+    src: url("/assets/icon/percolate.eot")
+        format("embedded-opentype"),
+      url("/assets/icon/percolate.woff") format("woff"),
+      url("/assets/icon/percolate.ttf") format("truetype"),
+      url("/assets/icon/percolate.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
