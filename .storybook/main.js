@@ -4,6 +4,6 @@ module.exports = {
   '@storybook/addon-links', 
   '@storybook/addon-notes',
   '@storybook/addon-knobs',
-    '@storybook/addon-docs',
+  '@storybook/addon-docs',
   '@storybook/addon-designs']
 };
