@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-@font-face {
-    font-family: "percolate";
+  @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,800');
+
+  @font-face {
+    font-family: "percolate"!;
     src: url("/assets/icon/percolate.eot");
     src: url("/assets/icon/percolate.eot")
         format("embedded-opentype"),
@@ -11,8 +13,6 @@
     font-style: normal;
   }
 
-
-  @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,800');
 html,
 body {
   margin: 0;
