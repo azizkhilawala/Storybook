@@ -1,4 +1,20 @@
 {
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-angular-plugin",
+            "config": {
+                "useFullSnippet": true,
+                "useFullDescription": true
+            }
+        },
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:6006/",
+                "startScript": "storybook"
+            }
+        }
+    ],
     "projects": [
         "5e90f065664754bbb9d7cd8f"
     ],
@@ -10,7 +26,53 @@
             "path": "src/app/components/task-list.component.ts",
             "zeplinNames": [
                 "List/Menu/Menu List Item - Text (H4) + Icon"
-            ]
+            ],
+            "storybook":{
+                "kind": "Design System/TaskList",
+                "stories":[
+                    "default"
+                ]
+            },
+            "confluence": {
+                "urlPath": "/Drop+Down+Menu"
+            }
+        },
+        {
+            "path": "src/app/components/task.component.ts",
+            "zeplinNames": [
+                "Form Elements/Radio/Radio + Label - Selected"
+            ],
+            "confluence": {
+                "urlPath": "/Text+Inputs"
+            }
+        },
+        {
+            "path": "src/app/components/1-Button.stories.ts",
+            "zeplinNames": [
+                "Buttons/Text/Text Button - Primary"
+            ],
+            "storybook":{
+                "kind": "Design System/Button",
+                "stories":[
+                    "default",
+                    "primary",
+                    "with emoji"
+                ]
+            },
+            "confluence":{
+                "urlPath":"/Buttons"
+            }
+        }
+    ],
+
+    "github":{
+        "repository": "azizkhilawala/Storybook"
+    }, 
+    "links": [
+        {
+            "name": "Confluence",
+            "type": "confluence",
+            "url": "https://confluence.cohesity.com/display/UX"
         }
     ]
 }
