@@ -1,7 +1,16 @@
 {
-    "projects": [],
+    "projects": [
+        "5e90f065664754bbb9d7cd8f"
+    ],
     "styleguides": [
         "5e90cd013b7e1e22c7e2f3d3"
     ],
-    "components": []
+    "components": [
+        {
+            "path": "src/app/components/task-list.component.ts",
+            "zeplinNames": [
+                "List/Menu/Menu List Item - Text (H4) + Icon"
+            ]
+        }
+    ]
 }
