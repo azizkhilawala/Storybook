@@ -25,11 +25,12 @@
         {
             "path": "src/app/components/task-list.component.ts",
             "zeplinNames": [
-                "List/Menu/Menu List Item - Text (H4) + Icon"
+                "List/Menu/Menu List Item - Text (H4) + Icon",
+                "List/Dropdowns/Dropdown List Item - Text + Meta + Icon"
             ],
-            "storybook":{
+            "storybook": {
                 "kind": "Design System/TaskList",
-                "stories":[
+                "stories": [
                     "default"
                 ]
             },
@@ -51,23 +52,22 @@
             "zeplinNames": [
                 "Buttons/Text/Text Button - Primary"
             ],
-            "storybook":{
+            "storybook": {
                 "kind": "Design System/Button",
-                "stories":[
+                "stories": [
                     "default",
                     "primary",
                     "with emoji"
                 ]
             },
-            "confluence":{
-                "urlPath":"/Buttons"
+            "confluence": {
+                "urlPath": "/Buttons"
             }
         }
     ],
-
-    "github":{
+    "github": {
         "repository": "azizkhilawala/Storybook"
-    }, 
+    },
     "links": [
         {
             "name": "Confluence",
